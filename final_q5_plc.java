@@ -9,6 +9,7 @@ public class Test
         for(j = 1; j = n; j++)
         {
             if(x[i][j] != 0)
+                goto reject;
                 break;
             System.out.println("First all-zero row is: " + i);
             break reject;
